@@ -175,7 +175,7 @@ void app_main(void) {
         // Publica a mensagem
         msg_id = esp_mqtt_client_publish(
             client,             // Handle do cliente
-            "asgard/",          // Tópico (o mesmo da sua imagem)
+            "asgard/",          // Tópico 
             msg_buffer,         // Mensagem
             0,                  // Tamanho da mensagem (0 para calcular automaticamente)
             1,                  // QoS (Qualidade de Serviço)
